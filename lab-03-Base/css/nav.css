@@ -1,0 +1,36 @@
+nav {
+    width: 100%;
+    overflow: hidden; /*Ocultar algo si se sale de los limites*/
+    background-color: black;
+}
+
+nav > ul { /*Todos los ul que vengan de nav*/
+    list-style-type: none;
+}
+
+nav > ul > li {
+    float: left;
+    margin-right: 12px;
+}
+
+nav > ul > li > a {
+    color: white;
+    display: block;
+    padding: 5px;
+    border-color: red;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+/* Seudo clases */
+
+nav ul a:focus {
+    color: red;
+    border-color: aquamarine;
+}
+
+nav ul a:hover {
+    color: red;
+    border-color: aquamarine;
+}
